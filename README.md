@@ -124,6 +124,5 @@ The insights from this project can help businesses:
 ## 👤 Author
 
 **Pooja Dey**
-
-Master of Operational Research  
+Research  
 University of Delhi
