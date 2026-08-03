@@ -118,9 +118,3 @@ The insights from this project can help businesses:
 - Understand customer demographics
 - Optimize promotional offers based on customer behavior
 - Support data-driven retail decision-making
-
----
-
-## 👤 Author
-
-**Pooja Dey**
