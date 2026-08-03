@@ -1,127 +1,129 @@
-# Customer Shopping Behavior Dashboard (Power BI)
+# 🛍️ Customer Shopping Behavior Analysis
 
-## Overview
-Developed an interactive Power BI dashboard to analyze customer shopping behavior using transactional data. The dashboard provides insights into customer demographics, purchasing patterns, product category performance, subscription status, and revenue trends through dynamic visualizations and filters.
+## 📌 Project Overview
 
----
+This project analyzes customer shopping behavior using Python, SQL, and Power BI to uncover purchasing trends, customer preferences, and revenue-driving factors. The workflow includes data cleaning, feature engineering, SQL-based data exploration, and an interactive Power BI dashboard for business decision-making.
 
-## Objective
-- Analyze customer purchasing behavior.
-- Identify top-performing product categories.
-- Compare revenue and sales across different age groups.
-- Evaluate subscription adoption among customers.
-- Build an interactive dashboard for business decision-making.
+The project analyzes approximately **3,900 customer transaction records** to generate actionable insights for marketing and sales strategies.
 
 ---
 
-## Tools & Technologies
-- Power BI Desktop
-- Power Query
-- DAX
-- Data Modeling
+## 🎯 Business Objective
+
+The objective of this project is to understand customer purchasing behavior by answering questions such as:
+
+- Which product categories generate the highest revenue?
+- Which customer segments contribute the most sales?
+- What percentage of customers subscribe to membership programs?
+- How do purchase patterns vary across age groups?
+- How can these insights support marketing and business decisions?
 
 ---
 
-## Dataset
-The dataset contains customer shopping information, including:
+## 📂 Dataset
+
+- **Domain:** Retail & E-commerce
+- **Dataset Size:** ~3,900 customer transactions
+- **Data Source:** Customer Shopping Behavior Dataset
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- MySQL
+- SQL
+- Power BI
+- Jupyter Notebook
+
+---
+
+## 🔄 Project Workflow
+
+1. Data Collection
+2. Data Cleaning
+3. Missing Value Treatment
+4. Feature Engineering
+5. Data Transformation
+6. Loading Data into MySQL
+7. SQL Analysis
+8. Interactive Power BI Dashboard
+9. Business Insights
+
+---
+
+## 🧹 Data Preparation
+
+The dataset was prepared using Python by:
+
+- Cleaning and validating customer records
+- Handling missing values in **Review Rating** using category-wise median imputation
+- Standardizing column names
+- Creating customer **Age Groups**
+- Engineering **Purchase Frequency (Days)** from purchase intervals
+- Removing redundant features before analysis
+
+---
+
+## 🗄️ SQL Analysis
+
+The cleaned dataset was loaded into **MySQL**, where SQL queries were used to analyze:
+
 - Customer demographics
-- Purchase amount
-- Product category
-- Review ratings
+- Product category performance
+- Revenue trends
 - Subscription status
-- Shipping type
+- Customer purchase behavior
+- Sales distribution
 
 ---
 
-## Dashboard KPIs
+## 📊 Power BI Dashboard
 
-| KPI | Value |
-|------|-------|
-| Number of Customers | 3.9K |
-| Average Purchase Amount | $59.76 |
-| Average Review Rating | 3.75 |
+The interactive dashboard provides:
 
----
-
-## Visualizations
-
-### 1. Customer Subscription Status
-- Doughnut Chart
-- Shows percentage of subscribed vs non-subscribed customers.
-
-**Insights**
-- No Subscription: **73%**
-- Subscribed: **27%**
+- Total Customers
+- Average Purchase Amount
+- Average Review Rating
+- Revenue by Category
+- Sales by Category
+- Revenue by Age Group
+- Sales by Age Group
+- Customer Subscription Analysis
+- Interactive filters for Gender, Category, Subscription Status, and Shipping Type :contentReference[oaicite:0]{index=0}
 
 ---
 
-### 2. Revenue by Category
-- Clustered Column Chart
+## 📈 Key Insights
 
-| Category | Revenue |
-|----------|---------:|
-| Clothing | 104K |
-| Accessories | 74K |
-| Footwear | 36K |
-| Outerwear | 19K |
-
----
-
-### 3. Sales by Category
-- Clustered Column Chart
-
-| Category | Sales |
-|----------|------:|
-| Clothing | 1,737 |
-| Accessories | 1,240 |
-| Footwear | 599 |
-| Outerwear | 324 |
+- 👥 Approximately **3.9K customers** were analyzed.
+- 💰 Average purchase amount was **$59.76**.
+- ⭐ Average customer review rating was **3.75**.
+- 👕 **Clothing** generated the highest revenue (**~$104K**).
+- 🛍️ Clothing also recorded the highest number of sales (**1,737 transactions**).
+- 💎 **27%** of customers had an active subscription.
+- 👨‍👩‍👧‍👦 Young Adults contributed the highest revenue and sales among all age groups. :contentReference[oaicite:1]{index=1}
 
 ---
 
-### 4. Revenue by Age Group
-- Horizontal Bar Chart
+## 💼 Business Impact
 
-| Age Group | Revenue |
-|-----------|---------:|
-| Young Adult | 62K |
-| Middle-aged | 59K |
-| Adult | 56K |
-| Senior | 56K |
+The insights from this project can help businesses:
 
----
-
-### 5. Sales by Age Group
-- Horizontal Bar Chart
-
-| Age Group | Sales |
-|-----------|------:|
-| Young Adult | 1,028 |
-| Middle-aged | 986 |
-| Senior | 944 |
-| Adult | 942 |
+- Identify high-performing product categories
+- Design targeted marketing campaigns
+- Improve customer retention strategies
+- Understand customer demographics
+- Optimize promotional offers based on customer behavior
+- Support data-driven retail decision-making
 
 ---
 
-## Interactive Filters (Slicers)
-The dashboard supports interactive filtering using:
-- Subscription Status
-- Gender
-- Product Category
-- Shipping Type
-  - 2-Day Shipping
-  - Express
-  - Free Shipping
-  - Next Day Air
-  - Standard
-  - Store Pickup
+## 👤 Author
 
----
+**Pooja Dey**
 
-## Key Business Insights
-- Clothing generated the highest revenue (**104K**) and the highest number of sales (**1,737**).
-- Outerwear contributed the lowest revenue and sales.
-- Around **73%** of customers are not subscribed, indicating potential opportunities for subscription campaigns.
-- Young Adults contributed the highest revenue and purchase volume.
-- Average customer purchase amount is **$59.76** with an average review rating of **3.75**, indicating moderate customer satisfaction.
-
+Master of Operational Research  
+University of Delhi
