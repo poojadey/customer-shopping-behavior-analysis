@@ -124,5 +124,3 @@ The insights from this project can help businesses:
 ## 👤 Author
 
 **Pooja Dey**
-Research  
-University of Delhi
