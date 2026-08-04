@@ -1,6 +1,6 @@
-# 🛍️ Customer Shopping Behavior Analysis
+# Customer Shopping Behavior Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes customer shopping behavior using Python, SQL, and Power BI to uncover purchasing trends, customer preferences, and revenue-driving factors. The workflow includes data cleaning, feature engineering, SQL-based data exploration, and an interactive Power BI dashboard for business decision-making.
 
@@ -8,7 +8,7 @@ The project analyzes approximately **3,900 customer transaction records** to gen
 
 ---
 
-## 🎯 Business Objective
+## Business Objective
 
 The objective of this project is to understand customer purchasing behavior by answering questions such as:
 
@@ -20,7 +20,7 @@ The objective of this project is to understand customer purchasing behavior by a
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Domain:** Retail & E-commerce
 - **Dataset Size:** ~3,900 customer transactions
@@ -28,7 +28,7 @@ The objective of this project is to understand customer purchasing behavior by a
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -40,7 +40,7 @@ The objective of this project is to understand customer purchasing behavior by a
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 1. Data Collection
 2. Data Cleaning
@@ -54,7 +54,7 @@ The objective of this project is to understand customer purchasing behavior by a
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation
 
 The dataset was prepared using Python by:
 
@@ -67,7 +67,7 @@ The dataset was prepared using Python by:
 
 ---
 
-## 🗄️ SQL Analysis
+## SQL Analysis
 
 The cleaned dataset was loaded into **MySQL**, where SQL queries were used to analyze:
 
@@ -80,7 +80,7 @@ The cleaned dataset was loaded into **MySQL**, where SQL queries were used to an
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 The interactive dashboard provides:
 
@@ -96,19 +96,19 @@ The interactive dashboard provides:
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
-- 👥 Approximately **3.9K customers** were analyzed.
-- 💰 Average purchase amount was **$59.76**.
-- ⭐ Average customer review rating was **3.75**.
-- 👕 **Clothing** generated the highest revenue (**~$104K**).
-- 🛍️ Clothing also recorded the highest number of sales (**1,737 transactions**).
-- 💎 **27%** of customers had an active subscription.
-- 👨‍👩‍👧‍👦 Young Adults contributed the highest revenue and sales among all age groups. :contentReference[oaicite:1]{index=1}
+- Approximately **3.9K customers** were analyzed.
+- Average purchase amount was **$59.76**.
+- Average customer review rating was **3.75**.
+- **Clothing** generated the highest revenue (**~$104K**).
+- Clothing also recorded the highest number of sales (**1,737 transactions**).
+- **27%** of customers had an active subscription.
+- Young Adults contributed the highest revenue and sales among all age groups. :contentReference[oaicite:1]{index=1}
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 The insights from this project can help businesses:
 
